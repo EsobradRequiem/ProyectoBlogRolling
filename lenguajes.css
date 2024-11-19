@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+   padding: 10px;
+   font-family: "Lexend Deca", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+   background-color: hsl(210, 69%, 24%);
+}
+.imagen{
+   max-width: 320px;
+   float: left;
+   height:700px ;
+   padding-right: 10px;
+}
+h1{
+    text-align:center;
+    color: #A64D79;
+}
+h2
+h3{
+    
+    color: black;
+    
+}
+
+p{
+    
+    color: whitesmoke;
+    
+}
+table {
+    display: flex;
+    padding: 10px;
+    border-collapse: collapse; /* Para que los bordes se pongan sin doble línea */
+    font-family: Arial, sans-serif; 
+    color: white;
+  
+  }
+  
+  th, td {
+    border: 3px solid black; 
+    padding: 8px 12px; /* Espaciado dentro de las celdas */
+    text-align: left; /* para q el texto se vaya a la izquierda */
+  }
+  .color-negro{
+   background-color: gray;
+  }
+  li{
+
+    color: white;
+  
+  }
+  strong{
+
+    color: black;
+  
+  }
+
+    
