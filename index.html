@@ -1,12 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="styles/index.css">
 </head>
+
 <body>
+  <main class="content">
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img carrucel/5206962_8bf4.jpg" class="d-block imagenes" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img carrucel/programacion-y-codigo-en-accion.jpg" class="d-block imagenes" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="columnas">
+
+      <div class="columna cartas">
+
+        <div class="card">
+          <img src="./Img cards/0_RfvInMt7Z1TSCa8N.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">¿Que diferencia hay entre el frontend y backend?</h5>
+            <p class="card-text">En el mundo de la programación existen dos términos muy comunes e importantes:
+              frontend y backend. Estos se utilizan cuando se quiere hablar de funcionalidad y usabilidad de un sitio
+              web o aplicación, pero ¿qué es cada uno y para qué sirve?</p>
+            <a href="/frontend y backend.html" class="btn btn-primary">Ver mas</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="./Img cards/3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">¿Diseñar es lo mismo que desarrollar?</h5>
+            <p class="card-text">El diseño y desarrollo web son dos disciplinas que se encargan de diferentes aspectos
+              de la creación de un sitio web, pero ¿Que funcion cumple cada una?</p>
+            <a href="./diseño y desarrollo.html" class="btn btn-primary">Ver mas</a>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./Img cards/Estos-son-los-lenguajes-de-programacion-que-utilizan-Facebook-Google-Windows-Apple-Linux-y-otros.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">¿Se habla Tucumano en programacion?</h5>
+            <p class="card-text">Los lenguajes de programación son estructuras con reglas muy bien estandarizadas para
+              controlar el comportamiento general de un sistema. Los leguajes pueden ser...</p>
+            <a href="./lenguajes.html" class="btn btn-primary">Ver mas</a>
+          </div>
+        </div>
+       
+      </div>
+
+
+
+
+      <section>
+        <div class="recuadro-inicio ">
+
+
+          <div class="formulario">
+            <form class=" buscador" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+
+            <select class="form-select form-select-sm seleccionar" aria-label="Small select example">
+              <option selected> Diseño web </option>
+              <option value="1">Servicios diseño web</option>
+              <option value="2">Tienda online</option>
+              <option value="3">Paguinas web WordPress</option>
+              <option value="3">Webs institucionales</option>
+              <option value="3">Diseño de tiendas online</option>
+              <option value="3">PrestaShop</option>
+            </select>
+            <select class="form-select form-select-sm seleccionar" aria-label="Small select example">
+              <option selected> Cursos</option>
+              <option value="1"> Diseño Gráfico y Web</option>
+              <option value="2">Programa de Diseño y Desarrollo Web</option>
+              <option value="3">BDes en Publicidad</option>
+              <option value="3">Diseño Gráfico y Web</option>
+              <option value="3">Desarrollo Full Satck</option>
+              <option value="3">Desarrollo web Front </option>
+              <option value="3">Desarrollo web de aplicaciones </option>
+            </select>
+            <p class="d-inline-flex gap-1 boton-noticias">
+              <a href="#" class="btn boton-formulario" role="button" data-bs-toggle="button">Ultimas noticias</a>
+            </p>
+          </div>
+          <a href="#"><img src="./img anuncio/maxresdefault-31.jpg.webp" alt="" class="anuncio">
+          </a>
+      </section>
+
+
+
+      </div>
+      </div>
+
+
+
+    </section>
+    <nav aria-label="Page navigation example paguinacion">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </main>
+
+
     <footer>
         <div class="footer-container">
             <div class="footer-column">
@@ -31,5 +165,7 @@
           </div>
         </footer>
     </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
