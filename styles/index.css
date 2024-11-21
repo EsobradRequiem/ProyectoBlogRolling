@@ -7,11 +7,12 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: hsl(210, 69%, 24%);
 }
 
 main {
     width: 100%;
-    background-color: hsl(210, 69%, 24%);
+    
 }
 
 .imagenes {
