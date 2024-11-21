@@ -1,0 +1,49 @@
+*  {
+    margin: 0;
+    padding: 0;
+    justify-content: left;
+    box-sizing: border-box;
+    background: rgb(1, 79, 245);
+    background: linear-gradient(90deg, rgb(0, 140, 255) 0%, rgba(8, 53, 201, 0.979) 50%, rgb(14, 86, 221) 100%);
+    
+    
+}
+section{
+    display: flex;
+}
+#As1{
+    float: right;
+}
+#h4a{
+    float: left;
+    font-size: 2rem;
+}
+#Titu{
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#pro{
+    font-size: 3.5rem;
+}
+.imagenes{
+    width: 500;
+}
+.titulos{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 3rem;
+        background-color: aliceblue;
+
+}
+.letras{font-family: 'Times New Roman', Times, serif;
+    font-size: 1,6rem;
+    background-color: white;
+}
+
+main {
+    padding: 0.5rem;
+    
+}
+.text1 {
+    float: left;
+    
+
+}
