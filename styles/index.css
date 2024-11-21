@@ -258,6 +258,10 @@ footer {
     font-weight: bold;
   }
 
+  .logo img {
+    height: 25%;
+    width: 25%;
+  }
   .social-links a {
     margin-right: 10px;
     color: #fff;
